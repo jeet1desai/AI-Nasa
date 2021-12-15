@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+Array [
+  <header
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-gutters MuiToolbar-dense css-10ltm04-MuiToolbar-root"
+    >
+      <div
+        className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+      >
+        <div
+          className="MuiTypography-root MuiTypography-h6 css-1qp5wg9-MuiTypography-root"
+        >
+          NASA
+        </div>
+      </div>
+    </div>
+  </header>,
+  <main
+    className="MuiContainer-root MuiContainer-maxWidthMd css-xdmu94-MuiContainer-root"
+  >
+    <div
+      className="nasa-form"
+    >
+      <form
+        autoComplete="off"
+        onSubmit={[Function]}
+      >
+        <div
+          className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+        >
+          <label
+            className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink={false}
+            htmlFor="outlined-basic"
+            id="outlined-basic-label"
+          >
+            Enter Asteroid Id
+            <span
+              aria-hidden={true}
+              className="MuiInputLabel-asterisk MuiFormLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+            >
+               
+              *
+            </span>
+          </label>
+          <div
+            className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              data-testid="asteroid-input"
+              disabled={false}
+              id="outlined-basic"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              type="text"
+              value=""
+            />
+            <fieldset
+              aria-hidden={true}
+              className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                className="css-173wfxe"
+              >
+                <span>
+                  Enter Asteroid Id
+                   *
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+              data-testid="country-submit-btn"
+              disabled={false}
+              onBlur={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+              data-testid="country-random-id-btn"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              Get Random Asteroid
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>,
+]
+`;

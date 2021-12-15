@@ -38,7 +38,7 @@ const Home: React.FC = () => {
           autoComplete="off"
           onSubmit={(e) => {
             e.preventDefault();
-            history.push(`/${id}`);
+            history.push({ pathname: `/${id}` });
           }}
         >
           <TextField
@@ -49,17 +49,23 @@ const Home: React.FC = () => {
             label="Enter Asteroid Id"
             variant="outlined"
             required
+            inputProps={{ "data-testid": "asteroid-input" }}
           />
           <br />
           <br />
           <Grid container spacing={2}>
             <Grid item>
-              <Button variant="contained" type="submit">
+              <Button
+                data-testid="country-submit-btn"
+                variant="contained"
+                type="submit"
+              >
                 Submit
               </Button>
             </Grid>
             <Grid item>
               <Button
+                data-testid="country-random-id-btn"
                 onClick={randomAsteroidId}
                 variant="outlined"
                 disabled={loading}
